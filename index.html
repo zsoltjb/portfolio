@@ -17,7 +17,11 @@
     </header>
 
     <section id="home">
-        <p>Short introduction about yourself and your passion for game development.</p>
+        <p>
+            I come from a digital marketing background, having worked in the B2B IT sector, B2C Health Care, and recruitment. I've also been involved in smaller projects. My journey into coding began when I started creating websites for small businesses as a side hustle. A few years back, I enrolled in a full-stack developer course at a career-switching educational institute. Though the course was remote, the support from tutors was commendable. During the C# module, I learned about its extensive use in game development and found myself drawn to it. This led me to Unity and its Junior Programmer course, which is freely available on their website. From there, developing games became more than just a hobby; it became a passion. I relished the process of creation, and over time, I could see my coding skills sharpening.</p>
+
+            <p>In my role as a Systems Manager for a London-based startup, I applied my coding expertise, predominantly in JavaScript and Python, to customize CRM systems and integrate them with third-party platforms like route managers. This was essential for achieving smooth automation and minimizing manual intervention, reducing the potential for human errors. Being at a startup also taught me the importance of budget-conscious decisions. While this experience was both challenging and exhilarating, the thrill of bringing a game to life remains unparalleled for me. I deeply wish I could make a living from creating games, so I wouldn't have to juggle my time to work on my passion projects.
+        </p>
     </section>
 
     <section id="projects">
@@ -44,19 +48,21 @@
         </div>
         <!-- Add other projects similarly -->
         <div class="project">
-            <h3>Eden of Mars</h3>
+            <h3>Crowd Controller Simulator</h3>
             <h4>Description</h4>
-            <p>The game revolves around managing a settlement where the wellbeing and mood of settlers play a pivotal role.The settlement's sustainability depends on the player's ability to ensure the settlers' moods remain positive. If settlers' moods decline, they may become ill, and a cascading effect will ensue if the mood index reaches zero.</p>
-            <p>One core feature of the game is the 'Mood Mechanic': depending on the collective mood, the game will generate challenges aligned with it. For instance, if the mood is low, challenges may involve restoring it by producing enough food containing essential vitamins.</p>
+            <p>Inspired by the intricate crowd control barriers at airport security queues, I developed a Unity-based game that emulates these real-world navigation challenges. Players adjust barriers in real-time, creating a dynamic environment that serves as a maze. The star attractions of my game are animated sheep agents that navigate this maze. These sheep, equipped with advanced AI, adjust their paths intelligently, mirroring the way we humans navigate through crowded areas. They're not just moving entities; I've layered them with animations for actions like walking, turning, and waiting. Every time the barrier configuration changes, these sheep evaluate, strategize, and then move forward. The overall environment also features gates and a sophisticated lighting system, enhancing the immersive experience of the game.</p>
             <h4>Technologies Used</h4>
             <ul>
-                <li>Unity: For game development and building the game's core mechanics.</li>
-                <li>C#</li>
-                <li>ChatGPT 3.5 (intended for later stages): Planned to be used for more dynamic and personalized challenge generation, rather than a hardcoded condition chain.</li>
+                <li><strong>Unity</strong></li>
+                <li><strong>C#</strong></li>
+                <li><strong>Universal Render Pipeline (URP)</strong></li>
+                <li><strong>NavMesh:</strong> This served as the guiding system for my sheep agents, letting them traverse the ever-changing environment efficiently.</li>
+                <li><strong>Unity's Animator and Animation Controller:</strong> I used Unity's animation system to create animations for the sheep agents.</li>
+                <li><strong>State Machine Behaviours:</strong>  Unity's state machine behaviours, especially components like WaitingBehaviour.</li>
             </ul>
             <h4>Challenges</h4>
             <ul>
-                <li><strong>Dynamic Challenge Generation:</strong> Creating a system where challenges adjust based on settlers' mood without being too repetitive or predictable.</li>
+                <li><strong>Lighting Issues:</strong> I struggled with the sheep appearing black in the Game view, even though they looked fine in the Scene view. After some tweaks with the Directional Light, I fixed it.</li>
                 <li><strong>AI Integration:</strong> Exploring the potential of integrating ChatGPT for personalized challenges and facing initial hurdles in setting up the API integration in Unity.</li>
                 <li><strong>Rapid Prototyping:</strong> Balancing between feature-rich content and the urgency to make the game playable as soon as possible. I decided to postpone the AI integration to a later stage to prioritize the game's core mechanics and playability.</li>
             </ul>
