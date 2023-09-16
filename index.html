@@ -29,71 +29,126 @@
         <h2>Projects</h2>
         <!-- Plant Nurturing Game -->
         <div class="project">
-            <h3>Eden of Mars</h3>
-            <h4>Description</h4>
-            <p>The game revolves around managing a settlement where the wellbeing and mood of settlers play a pivotal role.The settlement's sustainability depends on the player's ability to ensure the settlers' moods remain positive. If settlers' moods decline, they may become ill, and a cascading effect will ensue if the mood index reaches zero.</p>
-            <p>One core feature of the game is the 'Mood Mechanic': depending on the collective mood, the game will generate challenges aligned with it. For instance, if the mood is low, challenges may involve restoring it by producing enough food containing essential vitamins.</p>
-            <h4>Technologies Used</h4>
-            <ul>
-                <li>Unity: For game development and building the game's core mechanics.</li>
-                <li>C#</li>
-                <li>ChatGPT 3.5 (intended for later stages): Planned to be used for more dynamic and personalized challenge generation, rather than a hardcoded condition chain.</li>
-            </ul>
-            <h4>Challenges</h4>
-            <ul>
-                <li><strong>Dynamic Challenge Generation:</strong> Creating a system where challenges adjust based on settlers' mood without being too repetitive or predictable.</li>
-                <li><strong>AI Integration:</strong> Exploring the potential of integrating ChatGPT for personalized challenges and facing initial hurdles in setting up the API integration in Unity.</li>
-                <li><strong>Rapid Prototyping:</strong> Balancing between feature-rich content and the urgency to make the game playable as soon as possible. The developer decided to postpone the AI integration to a later stage to prioritize the game's core mechanics and playability.</li>
-            </ul>
-            <a href="link-to-game-or-demo">Play Demo</a>
+            <div class="project-details">
+                <h3>Eden of Mars</h3>
+                <h4>Description</h4>
+                <p>Set in a futuristic settlement on Mars, players are thrust into the role of a colony manager responsible for ensuring the survival and well-being of settlers.</p>
+                <p>The paramount objective is food management. Players must consistently maintain and replenish food stocks to feed the growing settler population. Success hinges upon the efficient use of water and fertilizer, essential resources for agriculture. Without them, food production plummets, posing a dire threat to the community.</p>
+                <p>Beyond basic sustenance, the game delves into the nuances of settler health and morale. Diet isn't merely about quelling hunger; it's also about nourishing bodies. Players must guarantee that food supplies are rich in vitamins to keep settlers healthy. In turn, settlers' moods are influenced by their health, making nutrition a lynchpin for colony harmony.</p>
+                <p>A strategic layer is added with the cultivation of specialized plants. For instance, growing hemp is essential for producing textiles and ropes, integral materials for the colony's maintenance.</p>
+                <p>Visual indicators assist players, offering insights into food stock longevity. With foresight, players can make proactive decisions to avert crises. Furthermore, if the settlement flourishes with ample food provisions, missions become available to import more settlers from Earth, amplifying the workforce and driving colony expansion.</p>
+            </div>
+            <div class="project-video">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/A8qxkxlZUFw" frameborder="0" allowfullscreen></iframe>
+            </div>
+            <div>
+                <h4>Technologies Used</h4>
+                <ul>
+                    <li>Unity: For game development and building the game's core mechanics.</li>
+                    <li>C#</li>
+                    <li>ChatGPT 3.5 (intended for later stages): Planned to be used for more dynamic and personalized challenge generation, rather than a hardcoded condition chain.</li>
+                </ul>
+                <h4>Challenges</h4>
+                <ul>
+                    <li><strong>Resource Management:</strong> Designing a delicate balance between water, fertilizer, and food production to maintain settler sustenance.</li>
+                    <li><strong>Health and Morale Dynamics:</strong> Integrating settlers' health and mood mechanics based on their diet and ensuring these factors directly impact gameplay.</li>
+                    <li><strong>Dynamic Challenge Generation:</strong> Creating a system where challenges adjust based on settlers' mood without being too repetitive or predictable.</li>
+                    <li><strong>AI Integration:</strong> Exploring the potential of integrating ChatGPT for personalized challenges and facing initial hurdles in setting up the API integration in Unity.</li>
+                    <li><strong>Rapid Prototyping:</strong> Balancing between feature-rich content and the urgency to make the game playable as soon as possible. The developer decided to postpone the AI integration to a later stage to prioritize the game's core mechanics and playability.</li>
+                </ul>
+                <a href="link-to-game-or-demo">Play Demo</a>
+            </div>
+
         </div>
         <!-- Crowd Control Simulator -->
         <div class="project">
-            <h3>Crowd Controller Simulator</h3>
-            <h4>Description</h4>
-            <p>Inspired by the intricate crowd control barriers at airport security queues, I developed a Unity-based game that emulates these real-world navigation challenges. Players adjust barriers in real-time, creating a dynamic environment that serves as a maze. The star attractions of my game are animated sheep agents that navigate this maze. These sheep, equipped with advanced AI, adjust their paths intelligently, mirroring the way we humans navigate through crowded areas. They're not just moving entities; I've layered them with animations for actions like walking, turning, and waiting. Every time the barrier configuration changes, these sheep evaluate, strategize, and then move forward. The overall environment also features gates and a sophisticated lighting system, enhancing the immersive experience of the game.</p>
-            <h4>Technologies Used</h4>
-            <ul>
-                <li><strong>Unity</strong></li>
-                <li><strong>C#</strong></li>
-                <li><strong>Universal Render Pipeline (URP)</strong></li>
-                <li><strong>NavMesh:</strong> This served as the guiding system for my sheep agents, letting them traverse the ever-changing environment efficiently.</li>
-                <li><strong>Unity's Animator and Animation Controller:</strong> I used Unity's animation system to create animations for the sheep agents.</li>
-                <li><strong>State Machine Behaviours:</strong>  Unity's state machine behaviours, especially components like WaitingBehaviour.</li>
-            </ul>
-            <h4>Challenges</h4>
-            <ul>
-                <li><strong>Lighting Issues:</strong> I struggled with the sheep appearing black in the Game view, even though they looked fine in the Scene view. After some tweaks with the Directional Light, I fixed it.</li>
-                <li><strong>AI Integration:</strong> Exploring the potential of integrating ChatGPT for personalized challenges and facing initial hurdles in setting up the API integration in Unity.</li>
-                <li><strong>Rapid Prototyping:</strong> Balancing between feature-rich content and the urgency to make the game playable as soon as possible. I decided to postpone the AI integration to a later stage to prioritize the game's core mechanics and playability.</li>
-            </ul>
-            <a href="link-to-game-or-demo">Play Demo</a>
+            <div class="project-details">
+                <h3>Crowd Controller Simulator</h3>
+                <h4>Description</h4>
+                <p>Inspired by the intricate crowd control barriers at airport security queues, I developed a Unity-based game that emulates these real-world navigation challenges. Players adjust barriers in real-time, creating a dynamic environment that serves as a maze. The star attractions of my game are animated sheep agents that navigate this maze.</p>
+                <p>These sheep, equipped with navMesh AI, adjust their paths intelligently, mirroring the way we humans navigate through crowded areas. They're not just moving entities; I've layered them with animations for actions like walking, turning, and waiting. Every time the barrier configuration changes, these sheep evaluate, strategize, and then move forward. The overall environment also features gates and a sophisticated lighting system, enhancing the immersive experience of the game.</p>
+            </div>
+            <div class="project-video">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/e6_xkcwSt1o" frameborder="0" allowfullscreen></iframe>
+            </div>
+            <div>
+                <h4>Technologies Used</h4>
+                <ul>
+                    <li><strong>Unity</strong></li>
+                    <li><strong>C#</strong></li>
+                    <li><strong>Universal Render Pipeline (URP)</strong></li>
+                    <li><strong>NavMesh:</strong> This served as the guiding system for my sheep agents, letting them traverse the ever-changing environment efficiently.</li>
+                    <li><strong>Unity's Animator and Animation Controller:</strong> I used Unity's animation system to create animations for the sheep agents.</li>
+                    <li><strong>State Machine Behaviours:</strong>  Unity's state machine behaviours, especially components like WaitingBehaviour.</li>
+                </ul>
+                <h4>Challenges</h4>
+                <ul>
+                    <li><strong>Lighting Issues:</strong> I struggled with the sheep appearing black in the Game view, even though they looked fine in the Scene view. After some tweaks with the Directional Light, I fixed it.</li>
+                    <li><strong>AI Integration:</strong> Exploring the potential of integrating ChatGPT for personalized challenges and facing initial hurdles in setting up the API integration in Unity.</li>
+                    <li><strong>Rapid Prototyping:</strong> Balancing between feature-rich content and the urgency to make the game playable as soon as possible. I decided to postpone the AI integration to a later stage to prioritize the game's core mechanics and playability.</li>
+                </ul>
+                <a href="link-to-game-or-demo">Play Demo</a>
+            </div>
         </div>
         <!-- Joke Generator -->
         <div class="project">
-            <h3>JoeKrakker the joke generator app</h3>
-            <h4>Description</h4>
-            <p>What began as a technical exploration into connecting with the GPT API took an unexpected and delightful twist. The outcome was "JoeKrakker", an app designed to bring a smile to anyone's face.</p>
-            <h4>Technologies Used</h4>
-            <ul>
-                <li><strong>Unity</strong></li>
-                <li><strong>C#</strong></li>
-                <li><strong>Unity's UI system</strong></li>
-                <li><strong>GPT API Connection:</strong> Originally, the app was designed as a test for connecting to the GPT API. However, it soon blossomed into a comprehensive joke writer, showcasing the power and versatility of the API.</li>
-            </ul>
-            <h4>Challenges</h4>
-            <ul>
-                <li><strong>Toggle Dynamics:</strong> The heart of JoeKrakker was the toggle system. Fine-tuning the toggles' behaviour to switch between joke categories was a considerable challenge, but it was vital for the app’s usability.</li>
-                <li><strong>Dynamic UI Generation:</strong> The user interface was designed to respond to the different joke categories. Ensuring that this dynamic generation was both efficient and visually consistent presented a rewarding challenge.</li>
-                <li><strong>State Management:</strong> I wanted the app to remember users' choices and personal customisations. For this, I employed dictionaries to maintain the toggles’ previous states, creating a fluid interaction process for users.</li>
-            </ul>
-            <a href="link-to-game-or-demo">Play Demo</a>
+            <div class="project-details">
+                <h3>JoeKrakker the joke generator app</h3>
+                <h4>Description</h4>
+                <p>What began as a technical exploration into connecting with the GPT API took an unexpected and delightful twist. The outcome was "JoeKrakker", an app designed to bring a smile to anyone's face.</p>
+            </div>
+            <div class="project-video">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/OB4eLwPsKuE" frameborder="0" allowfullscreen></iframe>
+            </div>
+            <div>
+                <h4>Technologies Used</h4>
+                <ul>
+                    <li><strong>Unity</strong></li>
+                    <li><strong>C#</strong></li>
+                    <li><strong>Unity's UI system</strong></li>
+                    <li><strong>GPT API Connection:</strong> Originally, the app was designed as a test for connecting to the GPT API. However, it soon blossomed into a comprehensive joke writer, showcasing the power and versatility of the API.</li>
+                </ul>
+                <h4>Challenges</h4>
+                <ul>
+                    <li><strong>Toggle Dynamics:</strong> The heart of JoeKrakker was the toggle system. Fine-tuning the toggles' behaviour to switch between joke categories was a considerable challenge, but it was vital for the app’s usability.</li>
+                    <li><strong>Dynamic UI Generation:</strong> The user interface was designed to respond to the different joke categories. Ensuring that this dynamic generation was both efficient and visually consistent presented a rewarding challenge.</li>
+                    <li><strong>State Management:</strong> I wanted the app to remember users' choices and personal customisations. For this, I employed dictionaries to maintain the toggles’ previous states, creating a fluid interaction process for users.</li>
+                </ul>
+                <a href="link-to-game-or-demo">Play Demo</a>
+            </div>
         </div>
-    </section>
+            <!-- Timeles Nations -->
+        <div class="project">
+            <div class="project-details">
+                <h3>Timeless Nations</h3>
+                <h4>Description</h4>
+                <p>Future Project for PC/Console.</p>
+                <h4>Technologies Used</h4>
+                <ul>
+                    <li><strong>Unity</strong></li>
+                    <li><strong>C#</strong></li>
+                    <li><strong></strong></li>
+                    <li><strong></strong> </li>
+                </ul>
+            </div>
+            <div class="project-video">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/LzpXjjubShQ" frameborder="0" allowfullscreen></iframe>
+            </div>
+            <div>
+                <h4>Challenges</h4>
+                <ul>
+                    <li><strong></strong> </li>
+                </ul>
+                <a href="link-to-game-or-demo">Play Demo</a>
+            </div>
+        </div>
+</section>
 
     <section id="contact">
         <h2>Contact</h2>
-        <p>zsolt at wavedropper.com</p>
+        <div class="card">
+            <p>zsolt at wavedropper.com</p>
+        </div>
     </section>
 
     <footer>
